@@ -3,6 +3,9 @@
 > **SIH26056 Solution for the Ministry of Statistics and Programme Implementation (MoSPI)**  
 > Augmenting official Consumer Price Index (CPI) with high-frequency automated domestic airfare ingestion & eSankhyiki SDMX data bridging.
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-aerova--ufne.vercel.app-00dfa2?style=for-the-badge&logo=vercel&logoColor=black)](https://aerova-ufne.vercel.app/)  
+🌐 **Live Web Application**: [https://aerova-ufne.vercel.app/](https://aerova-ufne.vercel.app/)
+
 ---
 
 ## 📌 Executive Summary

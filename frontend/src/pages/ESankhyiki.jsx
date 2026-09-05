@@ -14,7 +14,8 @@ export default function ESankhyiki() {
 
   const fetchFeed = () => {
     setLoading(true);
-    fetch("http://127.0.0.1:8000/api/v1/esankhyiki/export")
+    const apiBase = import.meta.env.VITE_API_BASE || "http://127.0.0.1:8000/api/v1";
+    fetch(`${apiBase}/esankhyiki/export`)
       .then((res) => res.json())
       .then((data) => {
         setFeedData(data);
