@@ -1,0 +1,121 @@
+{
+  "description": "DGCA Domestic City-Pair Passenger Volume Weights (MoSPI Base 2024=100) & Booking Lead Time Weights",
+  "base_year": 2024,
+  "base_index": 100.0,
+  "routes": [
+    {
+      "route_id": "DEL-BOM",
+      "origin": "DEL",
+      "destination": "BOM",
+      "origin_city": "New Delhi",
+      "destination_city": "Mumbai",
+      "distance_km": 1148,
+      "dgca_weight": 0.185,
+      "base_price": 5420.0
+    },
+    {
+      "route_id": "BLR-DEL",
+      "origin": "BLR",
+      "destination": "DEL",
+      "origin_city": "Bengaluru",
+      "destination_city": "New Delhi",
+      "distance_km": 1740,
+      "dgca_weight": 0.142,
+      "base_price": 6850.0
+    },
+    {
+      "route_id": "BOM-BLR",
+      "origin": "BOM",
+      "destination": "BLR",
+      "origin_city": "Mumbai",
+      "destination_city": "Bengaluru",
+      "distance_km": 842,
+      "dgca_weight": 0.128,
+      "base_price": 4350.0
+    },
+    {
+      "route_id": "DEL-CCU",
+      "origin": "DEL",
+      "destination": "CCU",
+      "origin_city": "New Delhi",
+      "destination_city": "Kolkata",
+      "distance_km": 1305,
+      "dgca_weight": 0.106,
+      "base_price": 5890.0
+    },
+    {
+      "route_id": "DEL-HYD",
+      "origin": "DEL",
+      "destination": "HYD",
+      "origin_city": "New Delhi",
+      "destination_city": "Hyderabad",
+      "distance_km": 1253,
+      "dgca_weight": 0.098,
+      "base_price": 5210.0
+    },
+    {
+      "route_id": "BOM-GOI",
+      "origin": "BOM",
+      "destination": "GOI",
+      "origin_city": "Mumbai",
+      "destination_city": "Goa (Dabolim/MOPA)",
+      "distance_km": 435,
+      "dgca_weight": 0.086,
+      "base_price": 3480.0
+    },
+    {
+      "route_id": "MAA-DEL",
+      "origin": "MAA",
+      "destination": "DEL",
+      "origin_city": "Chennai",
+      "destination_city": "New Delhi",
+      "distance_km": 1760,
+      "dgca_weight": 0.082,
+      "base_price": 6720.0
+    },
+    {
+      "route_id": "BLR-HYD",
+      "origin": "BLR",
+      "destination": "HYD",
+      "origin_city": "Bengaluru",
+      "destination_city": "Hyderabad",
+      "distance_km": 500,
+      "dgca_weight": 0.065,
+      "base_price": 3650.0
+    },
+    {
+      "route_id": "BOM-CCU",
+      "origin": "BOM",
+      "destination": "CCU",
+      "origin_city": "Mumbai",
+      "destination_city": "Kolkata",
+      "distance_km": 1654,
+      "dgca_weight": 0.058,
+      "base_price": 6940.0
+    },
+    {
+      "route_id": "DEL-PNQ",
+      "origin": "DEL",
+      "destination": "PNQ",
+      "origin_city": "New Delhi",
+      "destination_city": "Pune",
+      "distance_km": 1173,
+      "dgca_weight": 0.050,
+      "base_price": 5310.0
+    }
+  ],
+  "lead_time_distribution": [
+    { "advance_days": 1, "weight": 0.15, "description": "Last-minute / Urgent travel" },
+    { "advance_days": 7, "weight": 0.30, "description": "Short-horizon business / leisure" },
+    { "advance_days": 15, "weight": 0.28, "description": "Planned travel window" },
+    { "advance_days": 30, "weight": 0.18, "description": "Advanced holiday bookings" },
+    { "advance_days": 45, "weight": 0.09, "description": "Early-bird bookings" }
+  ],
+  "carriers": [
+    { "code": "6E", "name": "IndiGo", "market_share": 0.62 },
+    { "code": "AI", "name": "Air India", "market_share": 0.15 },
+    { "code": "QP", "name": "Akasa Air", "market_share": 0.05 },
+    { "code": "SG", "name": "SpiceJet", "market_share": 0.04 },
+    { "code": "AIX", "name": "Air India Express", "market_share": 0.14 }
+  ]
+}
